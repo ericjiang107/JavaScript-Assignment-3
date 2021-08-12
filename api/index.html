@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="js/main.js" defer></script>
+
+<title>Assignment 3</title>
+
+</head>
+<body>
+    <div class="container">
+        <!-- For the search bar -->
+        <div class="formcontainer">
+            <form>
+                <div class="col-mb-12">
+                  <label for="year" class="year">Enter Year</label>
+                  <input type="text" class="form-control" id="year">
+                </div>
+                <div class="col-mb-12">
+                    <label for="round" class="round">Enter Round</label>
+                    <input type="text" class="form-control" id="round">
+                  </div>
+                <button type="button" class="btn btn-primary" onClick=getData()>Submit</button>
+              </form>
+        </div>
+        <!-- For the box list -->
+        <div class="tablecontainter">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Position</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Nationality</th>
+                    <th scope="col">Sponsor</th>
+                    <th scope="col">Points</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" id="position-1"></th>
+                    <td id="Name1"></td>
+                    <td id="Nationality1"></td>
+                    <td id="Sponsor1"></td>
+                    <td id="Points1"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-2"></th>
+                    <td id="Name2"></td>
+                    <td id="Nationality2"></td>
+                    <td id="Sponsor2"></td>
+                    <td id="Points2"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-3"></th>
+                    <td id="Name3"></td>
+                    <td id="Nationality3"></td>
+                    <td id="Sponsor3"></td>
+                    <td id="Points3"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-4"></th>
+                    <td id="Name4"></td>
+                    <td id="Nationality4"></td>
+                    <td id="Sponsor4"></td>
+                    <td id="Points4"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-5"></th>
+                    <td id="Name5"></td>
+                    <td id="Nationality5"></td>
+                    <td id="Sponsor5"></td>
+                    <td id="Points5"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-6"></th>
+                    <td id="Name6"></td>
+                    <td id="Nationality6"></td>
+                    <td id="Sponsor6"></td>
+                    <td id="Points6"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="position-7"></th>
+                    <td id="Name7"></td>
+                    <td id="Nationality7"></td>
+                    <td id="Sponsor7"></td>
+                    <td id="Points7"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
